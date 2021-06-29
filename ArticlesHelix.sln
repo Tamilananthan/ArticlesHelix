@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{6DE26DB5-C4C6-482B-95E3-F31813351F9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{053C15DE-B880-4012-877C-A98F1CE18C0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{8DA2EE4A-087A-4FB9-A62F-698A9AAD65EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FAQ", "FAQ", "{97D87A99-A2F3-4048-B91A-50885EBBB27E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "News", "News", "{6291C9F9-4FF2-4F84-8792-3037F80C0A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArticlesHelix.Feature.FAQ", "src\Feature\FAQ\code\ArticlesHelix.Feature.FAQ.csproj", "{65A07939-1637-43FC-BF35-AAA7E50920A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{E2D8AA08-49C4-4C27-8487-9322BEB480ED}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65A07939-1637-43FC-BF35-AAA7E50920A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A07939-1637-43FC-BF35-AAA7E50920A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A07939-1637-43FC-BF35-AAA7E50920A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A07939-1637-43FC-BF35-AAA7E50920A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97D87A99-A2F3-4048-B91A-50885EBBB27E} = {6DE26DB5-C4C6-482B-95E3-F31813351F9C}
+		{6291C9F9-4FF2-4F84-8792-3037F80C0A32} = {6DE26DB5-C4C6-482B-95E3-F31813351F9C}
+		{65A07939-1637-43FC-BF35-AAA7E50920A5} = {97D87A99-A2F3-4048-B91A-50885EBBB27E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEF27FB0-B052-4ABF-A145-2334178472FB}
+	EndGlobalSection
+EndGlobal
